@@ -24,6 +24,8 @@ int main()
         NumberStudent[i].avg = (NumberStudent[i].UTS + NumberStudent[i].UAS)/2 ;
     }
     
+    cout << "-----------------" << '\n' ;
+    
     for(int i=0;i<n;i++){
         cout << "\nNIM: " << NumberStudent[i].NIM << endl ;
         cout << "Average Score: " << NumberStudent[i].avg << endl;
