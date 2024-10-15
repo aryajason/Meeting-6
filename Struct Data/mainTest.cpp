@@ -15,12 +15,12 @@ int main()
 {
     NumberStudent[0].NIM = "22780/PA";
     NumberStudent[0].UTS = 90;
-    NumberStudent[0].UAS = 83;
+    NumberStudent[0].UAS = 80;
 
     NumberStudent[0].avg = (NumberStudent[0].UTS + NumberStudent[0].UAS) / 2;
 
     string expectedNIM = "22780/PA";
-    float expectedAvg = (90 + 83) / 2;
+    float expectedAvg = (90 + 80) / 2;
 
    const float EPSILON = 0.001;
 
