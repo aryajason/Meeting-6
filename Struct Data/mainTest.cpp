@@ -22,4 +22,6 @@ float expectedAvg = (90+83)/2 ;
 if (expectedNIM == NumberStudent[0].NIM && expectedAvg == NumberStudent[0].avg) {
         cout << "Test Passed: SUCCESSFUL" << '\n';
  }
+    else {
+        cout << "Test Failed!" << '\n';
 }
