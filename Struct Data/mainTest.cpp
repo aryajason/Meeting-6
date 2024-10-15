@@ -23,6 +23,8 @@ int main()
     float expectedAvg = (90 + 83) / 2;
 
    const float EPSILON = 0.001;
+
+    // Check if the test passes
     if (expectedNIM == NumberStudent[0].NIM && abs(expectedAvg - NumberStudent[0].avg) < EPSILON) {
         cout << "Test Passed: SUCCESSFUL" << '\n';
     } else {
