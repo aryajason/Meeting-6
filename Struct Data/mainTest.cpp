@@ -21,11 +21,12 @@ int main()
     string expectedNIM = "22780/PA";
     float expectedAvg = (90 + 83) / 2;
 
-    if (expectedNIM == NumberStudent[0].NIM && expectedAvg == NumberStudent[0].avg) {
+   const float EPSILON = 0.001;
+    if (expectedNIM == NumberStudent[0].NIM && abs(expectedAvg - NumberStudent[0].avg) < EPSILON) {
         cout << "Test Passed: SUCCESSFUL" << '\n';
     } else {
         cout << "Test Failed!" << '\n';
     }
 
-    return 0; 
+    return 0;
 }
